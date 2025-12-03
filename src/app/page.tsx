@@ -1,8 +1,11 @@
+import FeaturesSection from "@/components/features-section";
+import HeroSection from "@/components/hero-section";
 
 export default function Home() {
   return (
-    <div className="text-5xl text-red-500">
-      Welcome back!
+    <div className="">
+      <HeroSection/>
+      <FeaturesSection/>
     </div>
   );
 }
